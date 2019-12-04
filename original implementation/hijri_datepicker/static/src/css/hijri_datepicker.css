@@ -1,0 +1,29 @@
+
+.oe_simple_date{
+    min-height: 0px ! important;
+}
+
+th.oe_list_header_datetime{
+    min-width: 128px ! important;
+}
+
+.oe_list_content th.oe_list_header_date {
+    min-width: 250px ! important;
+}
+
+.oe_list.oe_list_editable.oe_editing .oe_form_field.oe_form_field_datetime input.oe_datepicker_master{
+    width:40% ! important;
+}
+
+.oe_list.oe_list_editable.oe_editing .oe_form_field.oe_form_field_datetime input.oe_datepicker_master.oe_simple_date{
+    width:40% ! important;
+}
+
+.calendars-month {
+    width:100% !important;
+}
+
+.calendars-month-year {
+    width: 35% !important;
+    display: inline-block !important;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="hijri_datepicker assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.plugin.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.plus.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.ummalqura.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.ummalqura-ar.js"></script>
+		       <script type="text/javascript" src="/hijri_datepicker/static/src/js/bootstrap-calendars.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/src/js/bootstrap-datetimepicker.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/src/js/hijri_datepicker.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>

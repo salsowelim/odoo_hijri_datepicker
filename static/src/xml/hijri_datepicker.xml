@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="web.datepicker">
+        <t t-set="placeholder" t-value="widget.getParent().node and widget.getParent().node.attrs.placeholder"/>
+        <div class="dtpicker_parent">
+            <div class="o_datepicker">
+            <input type="text"
+                class="o_datepicker_input o_input oe_simple_date oe_datepicker_master"
+                t-att-name="widget.name"
+                t-att-placeholder="placeholder"/>
+            <span class="o_datepicker_button"/>
+            </div>
+            <div class="o_datepicker">
+            <input type="text"
+                t-att-name="widget.name" 
+                t-att-placeholder="placeholder" 
+                class="oe_hijri o_input o_datepicker_input"/>
+            <span class="o_datepicker_button"/>
+            </div>
+        </div>
+    </t>
+</templates>

@@ -1,7 +1,7 @@
 # Odoo Hijri Datepicker
 Hijri Calendar datepicker add-on for Odoo ERP (version 11)
 
-This is a repost of part of the work I've involved in @ [KACST Seder ERP project](https://github.com/SederERP/SederERP). (Please refer to original poster/project for issues or pull requests). This is an upgrade from an original contributer. You can find the original source code in "original implementation" folder.
+This is a repost of part of the work I've involved in @ [KACST SERP ERP project](https://github.com/SerpERP/SerpERP). (Please refer to original poster/project for issues or pull requests). This is an upgrade from an original contributer. You can find the original source code in "original implementation" folder.
 
 
 ## Description:

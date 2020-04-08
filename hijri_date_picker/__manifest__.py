@@ -2,7 +2,7 @@
 {
     "name": "Umm Al Qura (Hijri) Datepicker",
     'version': '1',
-    'author': 'Expert Ltd. Co., upgraded by Suliman Alsowelim (KACST)',
+    'author': 'upgraded by Suliman Alsowelim (KACST), by Expert Ltd. Co.',
     "license": "LGPL-3",
     'summary': 'Web',
     "description":
@@ -14,6 +14,7 @@
   - There are limitations on the supported date-time formats. however, formats like (dd/mm/yyyy, mm/dd/yyyy) are supported. \n
   - Please see  ./static for the included open source codes and libraries.\n
   - Currently only supports arabic and english languages.\n
+  - For more details and latest release visit github repository: https://github.com/salsowelim/odoo_hijri_datepicker \n
         """,
     "depends": ['base', 'web'],
     'category': 'web',

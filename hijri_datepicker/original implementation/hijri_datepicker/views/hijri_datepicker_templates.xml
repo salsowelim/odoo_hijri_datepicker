@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="hijri_datepicker assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+		        <link rel="stylesheet" href="/hijri_datepicker/static/src/css/hijri_datepicker.css"></link>
+		        <link rel="stylesheet" href="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.picker.css"></link>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.plugin.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.plus.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.picker.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.islamic.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.islamic-ar.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/lib/jQuery_calendars/jquery.calendars.islamic-fa.js"></script>
+		        <script type="text/javascript" src="/hijri_datepicker/static/src/js/hijri_datepicker.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>

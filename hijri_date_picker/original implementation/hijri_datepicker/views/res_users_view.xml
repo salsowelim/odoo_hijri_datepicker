@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_users_form_inherit_local" model="ir.ui.view">
+            <field name="name">res.users.form.inherit.local</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='lang']" position="after">
+                    <field name="cal_localise"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
